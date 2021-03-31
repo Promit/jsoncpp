@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{efe9ea6e-e506-49b7-bd1d-f1eba404fc00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib_json">
+      <UniqueIdentifier>{25362820-7c73-465e-ab0d-81088e935eb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\json">
+      <UniqueIdentifier>{93ccfe8f-3fb1-4610-aafd-7e72557fcab4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\json\autolink.h">
+      <Filter>include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="include\json\writer.h">
+      <Filter>include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="include\json\config.h">
+      <Filter>include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="include\json\features.h">
+      <Filter>include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="include\json\forwards.h">
+      <Filter>include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="include\json\json.hpp">
+      <Filter>include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="include\json\reader.h">
+      <Filter>include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="include\json\value.h">
+      <Filter>include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="include\JsonSerializer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib_json\json_tool.h">
+      <Filter>lib_json</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\lib_json\json_reader.cpp">
+      <Filter>lib_json</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib_json\json_value.cpp">
+      <Filter>lib_json</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib_json\json_writer.cpp">
+      <Filter>lib_json</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\lib_json\json_valueiterator.inl">
+      <Filter>lib_json</Filter>
+    </None>
+  </ItemGroup>
+</Project>
